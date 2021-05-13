@@ -1,34 +1,30 @@
 body,
 html,
 #root {
-
-  background-image: linear-gradient(black,black), url('./ballers-wp.jpg');
+  /* background-image: linear-gradient(black,black), url('./ballers-wp.jpg'); */
   background-blend-mode: saturation;
-  background-size:cover;
+  background-size: cover;
   min-height: 100%;
-
-
 }
 
 html {
   font-size: 18px;
-
 }
-body, .App {
+body,
+.App {
   min-height: 100%;
 }
 header {
-  padding: .77rem 0;
+  padding: 0.77rem 0;
   background-color: #1d428a;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   position: relative;
 }
 
 .logo {
   width: 50px;
-  margin-left:10px;
-
+  margin-left: 10px;
 }
 
 .has-search .form-control {
@@ -82,7 +78,7 @@ header {
 .search-list {
   background: white;
   color: black;
- /* position: relative; */
+  /* position: relative; */
 }
 
 .name-list {
@@ -92,43 +88,37 @@ header {
 
 .dropdown-list {
   position: absolute;
-  background: #C9082A;
+  background: #c9082a;
   width: 280px;
   z-index: 10;
-
 }
 /*Card*/
 
 .card {
   border-radius: 30px !important;
   box-shadow: 0 0 0 3px #000, 0 0 0 6px yellow, 0 0 0 9px #000;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   width: 300px;
-
 }
-
 
 .card img {
   border-radius: 30px 30px 0 0;
   max-height: 230px;
-
 }
 
 .maincontainer {
   position: relative;
   width: 360px;
   height: 410px;
-
 }
 
- .thecard {
+.thecard {
   position: absolute;
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
   transition: all 0.5s ease;
 }
-
 
 .thecard:hover {
   transform: rotateY(180deg);
@@ -139,7 +129,14 @@ header {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: linear-gradient(to bottom, #C9082A 15%, #17408B 15% 30%, white 30% 70%, #17408B 70% 85%, #C9082A 85%);
+  background: linear-gradient(
+    to bottom,
+    #c9082a 15%,
+    #17408b 15% 30%,
+    white 30% 70%,
+    #17408b 70% 85%,
+    #c9082a 85%
+  );
 }
 .theback {
   position: absolute;
@@ -148,7 +145,14 @@ header {
   color: black;
   backface-visibility: hidden;
   transform: rotateY(180deg);
-  background: linear-gradient(to bottom, #C9082A 15%, #17408B 15% 30%, white 30% 70%, #17408B 70% 85%, #C9082A 85%);
+  background: linear-gradient(
+    to bottom,
+    #c9082a 15%,
+    #17408b 15% 30%,
+    white 30% 70%,
+    #17408b 70% 85%,
+    #c9082a 85%
+  );
 }
 
 .no-record {
@@ -169,7 +173,6 @@ header {
   font-size: 8px;
 }
 
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -183,7 +186,7 @@ header {
 }
 .tv {
   height: 320px;
-  width:390px;
+  width: 390px;
   margin-left: -18px;
 }
 
@@ -194,35 +197,34 @@ header {
 }
 .video img {
   height: 219px;
-  width:245px;
+  width: 245px;
 }
 
-.video-title{
-  padding-right:20px;
+.video-title {
+  padding-right: 20px;
   padding-left: 70px;
   color: white;
   padding-top: 30px;
-  padding-bottom: 30px
+  padding-bottom: 30px;
 }
 
 a:link {
-  text-decoration : none!important;
+  text-decoration: none !important;
 }
-
 
 .custom-modal {
   background-color: white;
- margin: auto;
- top: 15%;
-
+  margin: auto;
+  top: 15%;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
   .custom-modal {
-    top:5%;
+    top: 5%;
   }
 }
 
-.logout-btn, .exit-btn {
+.logout-btn,
+.exit-btn {
   margin-top: 200px;
 }
